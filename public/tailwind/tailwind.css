@@ -12,7 +12,7 @@
 @layer components {
   .lottery {
     @apply desktop:w-[100%] desktop:h-[460px] desktop:bg-gradient-to-tr desktop:from-gray-300 desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center mobile:w-[100%] mobile:h-[750px] 
-        dark:bg-[#2b2b2b] mobile:bg-gradient-to-tr mobile:from-gray-300 mobile:flex-col;
+    dark:bg-[#2b2b2b] mobile:bg-gradient-to-tr mobile:from-gray-300 mobile:flex-col;
   }
   .lottery__h1 {
     @apply mobile:pt-[10px];
@@ -45,28 +45,25 @@
     @apply desktop:object-cover desktop:w-[100%] desktop:h-[500px];
   }
   .banner__ghermez {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[2214px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute z-[1001] mobile:top-[2170px];
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[2214px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:top-[2170px];
   }
   .intro__one {
     @apply desktop:w-[85%] desktop:mr-auto desktop:ml-auto desktop:mt-[0] desktop:mb-[0];
   }
   .intro__a {
-    @apply dark:bg-[pink] desktop:flex w-[120px] desktop:h-[40px]  desktop:bg-white desktop:text-[#7c7d7e] desktop:mr-[10px] desktop:font-display desktop:items-center desktop:justify-center desktop:no-underline border-[1px] border-solid desktop:border-[#c8c8c8] desktop:rounded-[8px] desktop:text-[14px] desktop:delay-100 desktop:hover:bg-[#ff0000] desktop:hover:text-white desktop:font-normal mobile:flex mobile:w-[120px] mobile:h-[40px] mobile:bg-white mobile:text-[#7c7d7e] mobile:font-display mobile:items-center mobile:justify-center mobile:no-underline mobile:border-[1px] mobile:border-solid mobile:border-[#c8c8c8] mobile:rounded-[8px] mobile:text-[14px] mobile:delay-100 mobile:hover:bg-[#ff0000] mobile:hover:text-white mobile:font-normal mobile:mr-[40px];
+    @apply desktop:flex w-[120px] desktop:h-[40px]  desktop:bg-white desktop:text-[#7c7d7e] desktop:mr-[10px] desktop:font-display desktop:items-center desktop:justify-center desktop:no-underline border-[1px] border-solid desktop:border-[#c8c8c8] desktop:rounded-[8px] desktop:text-[14px] desktop:delay-100 desktop:hover:bg-[#ff0000] desktop:hover:text-white desktop:font-normal mobile:flex mobile:w-[120px] mobile:h-[40px] mobile:bg-white mobile:text-[#7c7d7e] mobile:font-display mobile:items-center mobile:justify-center mobile:no-underline mobile:border-[1px] mobile:border-solid mobile:border-[#c8c8c8] mobile:rounded-[8px] mobile:text-[14px] mobile:delay-100 mobile:hover:bg-[#ff0000] mobile:hover:text-white mobile:font-normal mobile:mr-[40px];
   }
   .intro__aa {
     @apply dark:bg-[pink] desktop:flex desktop:w-[120px] desktop:h-[40px] desktop:bg-white desktop:text-[#7c7d7e] desktop:font-display desktop:items-center desktop:justify-center desktop:no-underline desktop:border-[1px] desktop:border-solid desktop:border-[#c8c8c8] desktop:rounded-[8px] desktop:text-[14px] desktop:delay-100 desktop:hover:bg-[#ff0000] desktop:hover:text-white desktop:font-normal mobile:flex mobile:w-[120px] mobile:h-[40px] mobile:bg-white mobile:text-[#7c7d7e] mobile:font-display mobile:items-center mobile:justify-center mobile:no-underline mobile:border-[1px] mobile:border-solid mobile:border-[#c8c8c8] mobile:rounded-[8px] mobile:text-[14px] mobile:delay-100 mobile:hover:bg-[#ff0000] mobile:hover:text-white mobile:font-normal;
   }
   .banner__ghermezz {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[3268px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute z-[1001] mobile:top-[3003px];
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[3269px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:top-[3003px];
   }
   .banner__ghermezzz {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[4414px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute z-[1001] mobile:top-[3927px];
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[4414px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:top-[3927px];
   }
   .soup {
     @apply desktop:w-[100%] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:bg-[#CDE4B0] mobile:w-[100%] mobile:flex mobile:flex-col mobile:flex-wrap mobile:justify-center mobile:bg-[#CDE4B0] mobile:mx-auto mobile:items-center dark:bg-[#2b2b2b];
-  }
-  .soup11 {
-    @apply desktop:w-[100%] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:bg-[#F7F9FB] mobile:w-[100%] mobile:flex mobile:flex-col mobile:flex-wrap mobile:justify-center mobile:bg-[#F7F9FB] mobile:mx-auto mobile:items-center dark:bg-[#2b2b2b];
   }
   .soup__one {
     @apply desktop:h-[772px] desktop:flex desktop:gap-[9.5px] desktop:items-center desktop:flex-row desktop:flex-wrap  mobile:flex gap-[9.5px] mobile:items-center mobile:flex-col mobile:flex-wrap pr-[5px] mobile:mt-[20px] mb-[20px];
@@ -75,22 +72,22 @@
     @apply desktop:h-[772px] desktop:flex desktop:gap-[9.5px] desktop:items-center desktop:flex-row desktop:flex-wrap  mobile:flex gap-[9.5px] mobile:items-center mobile:flex-col mobile:flex-wrap pr-[5px] mobile:mt-[1px] mb-[1px];
   }
   .soup__two {
-    @apply desktop:w-[320px] desktop:h-[580px] desktop:flex desktop:flex-col desktop:flex-wrap desktop:bg-[#fff] desktop:shadow-xl mobile:w-[320px] mobile:h-[580px] mobile:flex mobile:flex-col mobile:flex-wrap mobile:bg-[#fff] mobile:shadow-xl;
+    @apply desktop:w-[320px] desktop:h-[580px] desktop:flex desktop:flex-col desktop:flex-wrap desktop:bg-[#fff] desktop:shadow-xl mobile:w-[320px] mobile:h-[580px] mobile:flex mobile:flex-col mobile:flex-wrap mobile:bg-[#fff] mobile:shadow-xl dark:bg-blue-950;
   }
   .soup__three {
-    @apply desktop:w-[320px] desktop:h-[580px] desktop:flex desktop:flex-col desktop:flex-wrap desktop:bg-[#fff] desktop:shadow-xl mobile:hidden;
+    @apply desktop:w-[320px] desktop:h-[580px] desktop:flex desktop:flex-col desktop:flex-wrap desktop:bg-[#fff] desktop:shadow-xl mobile:hidden dark:bg-blue-950;
   }
   .film {
     @apply desktop:w-[100%] desktop:h-[700px] desktop:bg-white desktop:flex desktop:flex-row desktop:justify-center desktop:pt-[95px] desktop:pl-[250px] desktop:pr-[250px] mobile:pr-[90px] mobile:pt-[40px] dark:bg-[#2b2b2b];
   }
   .masso {
-    @apply desktop:flex desktop:justify-center desktop:shadow-xl desktop:z-[1001] desktop:absolute desktop:top-[7380px] desktop:right-[540px] mobile:flex mobile:justify-center mobile:shadow-lg mobile:z-[1001] mobile:absolute mobile:top-[8460px] mobile:mr-[40px];
+    @apply desktop:flex desktop:justify-center desktop:shadow-xl desktop:z-[1001] desktop:absolute desktop:top-[7380px] desktop:right-[540px] mobile:flex mobile:justify-center mobile:shadow-lg mobile:absolute mobile:top-[8460px] mobile:mr-[40px];
   }
   .footer__red {
     @apply desktop:w-[100%] desktop:h-[25px] desktop:bg-[#ED1C24] mobile:w-[100%] mobile:h-[25px] mobile:bg-[#ED1C24];
   }
   .footer__b {
-    @apply desktop:w-[100%] desktop:h-[532px] desktop:bg-[#272727] mobile:w-[100%] mobile:h-[1396px] mobile:bg-[#272727];
+    @apply desktop:w-[100%] desktop:h-[532px] desktop:bg-[#272727] mobile:w-[100%] mobile:h-[1396px] mobile:bg-[#272727] desktop:mb-[1px];
   }
   .footer__main {
     @apply desktop:w-[100%] desktop:h-[364px] desktop:flex desktop:flex-row desktop:gap-[10px] desktop:flex-wrap desktop:justify-center mobile:w-[100%] mobile:h-[1376.32px] mobile:flex mobile:flex-row mobile:flex-wrap mobile:justify-center;
@@ -114,7 +111,7 @@
     @apply desktop:w-[100%] desktop:h-[95px] desktop:flex desktop:flex-col desktop:flex-wrap desktop:items-center desktop:justify-center mobile:w-[100%] mobile:h-[124px] mobile:flex mobile:flex-col mobile:flex-wrap mobile:items-center mobile:justify-center mobile:text-center mobile:bg-[#272727];
   }
   .menu {
-    @apply desktop:bg-[#272727] desktop:w-full mobile:w-full desktop:h-[100px] mobile:h-[170px] mobile:bg-[#272727] desktop:sticky mobile:sticky desktop:top-0 desktop:z-[99999] mobile:z-[99999] desktop:right-0 mobile:right-0 dark:bg-[#2b2b2b];
+    @apply desktop:bg-[#272727] desktop:w-full mobile:w-full desktop:h-[100px] mobile:h-[170px] mobile:bg-[#272727] desktop:sticky mobile:sticky desktop:top-0 desktop:z-[99999] mobile:z-[99999] desktop:right-0 mobile:right-0 dark:bg-[#2b2b2b] mobile:top-0;
   }
   .image-menu {
     @apply desktop:absolute desktop:w-[170px] mobile:w-[170px] desktop:h-[105px] mobile:h-[105px] desktop:right-[210px] desktop:top-[50px] mobile:left-[38%] mobile:absolute mobile:top-[10px];
@@ -147,7 +144,7 @@
     @apply desktop:block desktop:w-fit desktop:py-0 desktop:px-5 desktop:no-underline desktop:text-[#a5a4a4] desktop:font-display desktop:text-base desktop:cursor-pointer desktop:leading-[20px] desktop:hover:text-white desktop:duration-300;
   }
   .label {
-    @apply desktop:hidden mobile:inline-block mobile:absolute mobile:w-[35px] mobile:h-[35px]  mobile:mt-[130px] cursor-pointer;
+    @apply desktop:hidden mobile:inline-block mobile:absolute mobile:w-[35px] mobile:h-[35px]  mobile:mt-[130px] cursor-pointer mobile:mr-[15px];
   }
   .label:hover > .logo-line-first {
     @apply bg-white;
@@ -180,7 +177,7 @@
     @apply desktop:hidden mobile:hidden mobile:mt-[130px] mobile:mr-[20px];
   }
   .hamburger {
-    @apply mobile::z-[99999] mobile:z-[99999] mobile::right-0 mobile::right-0 desktop:hidden mobile:w-[100%] mobile:h-[200px] mobile:bg-[#2b2b2b] mobile:hidden mobile:top-[100px] mobile:absolute mobile:transition-all mobile:duration-300 mobile:ease-out;
+    @apply mobile:z-[99999] mobile:right-0 desktop:hidden mobile:w-[100%] mobile:h-[330px] mobile:bg-[#2b2b2b] mobile:hidden mobile:top-[100px] mobile:absolute mobile:transition-all mobile:duration-300 mobile:ease-out;
   }
   .nav-hamburger {
     @apply mobile:w-[full];
@@ -190,5 +187,14 @@
   }
   .link-hamburger {
     @apply mobile:block mobile:w-full mobile:h-[40px] mobile:leading-[40px] mobile:text-[16px] mobile:font-display mobile:text-[#c4bcbc] hover:text-[whitesmoke] duration-300;
+  }
+  .intro___a {
+    @apply desktop:flex w-[120px] desktop:h-[40px]  desktop:bg-white desktop:text-[#7c7d7e] desktop:ml-[100px] desktop:font-display desktop:items-center desktop:justify-center desktop:no-underline border-[1px] border-solid desktop:border-[#c8c8c8] desktop:rounded-[8px] desktop:text-[14px] desktop:delay-100 desktop:hover:bg-[#ff0000] desktop:hover:text-white desktop:font-normal mobile:flex mobile:w-[120px] mobile:h-[40px] mobile:bg-white mobile:text-[#7c7d7e] mobile:font-display mobile:items-center mobile:justify-center mobile:no-underline mobile:border-[1px] mobile:border-solid mobile:border-[#c8c8c8] mobile:rounded-[8px] mobile:text-[14px] mobile:delay-100 mobile:hover:bg-[#ff0000] mobile:hover:text-white mobile:font-normal mobile:mr-[40px];
+  }
+  .weblug{
+    @apply desktop:text-[20px] desktop:text-[#ff000f] desktop:font-display desktop:font-[700] desktop:mb-[0] desktop:mr-[100px] desktop:w-[60%] mt-[0] dark:text-blue-700 mobile:text-[20px] mobile:text-[#ff000f] mobile:font-display mobile:font-[700]
+  }
+  .arm{
+    @apply desktop:w-[100%] desktop:h-[94px] desktop:bg-[#EEEFEF] desktop:justify-center desktop:items-center desktop:flex desktop:flex-row desktop:flex-wrap mobile:w-[100%] mobile:h-[94px] mobile:bg-[#EEEFEF] mobile:justify-center mobile:items-center mobile:flex mobile:flex-row
   }
 }

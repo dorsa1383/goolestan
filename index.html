@@ -6,10 +6,16 @@
     <title>صفحه اصلی - وب سایت رسمی شرکت گلستان | golestan</title>
     <link rel="shortcut icon" href="./image/golestan.png" type="image/x-icon" />
     <link rel="stylesheet" href="./public/css/main.css" />
+    <style>
+      html,body{
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
-  <body  class="dark:bg-[#2b2b2b]">
+  <body  class="dark:bg-[#2b2b2b] overflow-x-hidden">
     <!--make websit-->
       <!--menu-->
+      <a href="#svg"></a>
       <div class="menu">
         <img
           class="image-menu"
@@ -18,10 +24,10 @@
         />
         <nav class="menu-nav">
           <div class="nav-item">
-            <a href="index.html" class="nav-link-main">صفحه ی اصلی</a>
+            <a href="#" class="nav-link-main">صفحه ی اصلی</a>
           </div>
           <div class="nav-item">
-            <a href="#" class="nav-link">شرکت گلستان</a>
+            <a href="./sherkat.html" class="nav-link">شرکت گلستان</a>
             <div class="sub-menu">
               <a href="" class="sub-menu-link">معرفی شرکت</a>
               <a href="" class="sub-menu-link">تاریخچه گلستان</a>
@@ -51,7 +57,7 @@
           <div class="nav-item">
             <a href="./weblag.html" class="nav-link">وبلاگ</a>
             <div class="sub-menu">
-                <a href="magazine.html" class="sub-menu-link">مجله گلستان</a>
+                <a href="" class="sub-menu-link">مجله گلستان</a>
                 <a href="" class="sub-menu-link">فرهنگ غذایی</a>
                 <a href="" class="sub-menu-link">سلامت غذایی</a>
                 <a href="" class="sub-menu-link">تاریخچه</a>
@@ -86,10 +92,10 @@
         <div class="hamburger">
           <nav class="nav-hamburger">
             <div class="hamburger-item">
-              <a class="link-hamburger" href="./index.html">صفحه اصلی</a>
+              <a class="link-hamburger" href="#">صفحه اصلی</a>
             </div>
             <div class="hamburger-item">
-              <a class="link-hamburger" href="#">شرکت گلستان</a>
+              <a class="link-hamburger" href="./sherkat.html">شرکت گلستان</a>
             </div>
             <div class="hamburger-item">
               <a class="link-hamburger" href="#">محصولات</a>
@@ -99,6 +105,15 @@
             </div>
             <div class="hamburger-item">
               <a class="link-hamburger" href="#">قرعه کشی</a>
+            </div>
+            <div class="hamburger-item">
+              <a class="link-hamburger" href="#">استخدام</a>
+            </div>
+            <div class="hamburger-item">
+              <a class="link-hamburger" href="#">تماس با ما</a>
+            </div>
+            <div class="hamburger-item">
+              <a class="link-hamburger" href="#">EN</a>
             </div>
             <div class="hamburger-item"></div>
           </nav>
@@ -112,17 +127,17 @@
       >
         <div class="lottery__start">
           <h1
-            class="font-display text-[30px] font-[300] text-[#ff0000] mb-[5px] lottery__h1"
+            class="font-display text-[30px] font-[300] text-[#ff0000] mb-[5px] lottery__h1 dark:text-blue-600"
           >
             قرعه‌کشی ماهیانه گلستان
           </h1>
           <h2
-            class="font-display text-[20px] font-[300] text-[#58595b] mb-[20px] dark:text-[white] dark:opacity-75"
+            class="font-display text-[20px] font-[300] text-[#58595b] mb-[20px] dark:text-blue-400 dark:opacity-75"
           >
             قرعه‌کشی ماهیانه مصرف‌کنندگان چای گلستان
           </h2>
           <p
-            class="font-display text-[16px] font-[100] text-[#898989] mb-[20px] leading-[33px] w-[70%] dark:text-[white] dark:opacity-75"
+            class="font-display text-[16px] font-[100] text-[#898989] mb-[20px] leading-[33px] w-[70%] dark:text-blue-200 dark:opacity-75"
           >
             هر یک از مصرف‌کنندگان محصولات چای گلستان می‌توانند با ارسال کد قرعه
             کشی روی بسته به شماره 30007405 در قرعه کشی‌های ماهیانه سال 1403شرکت
@@ -130,7 +145,7 @@
           </p>
           <a
             href="#"
-            class="dark:bg-[pink] flex w-[120px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white"
+            class="dark:bg-[black] flex w-[120px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white"
             >اطلاعات بیشتر</a
           >
         </div>
@@ -148,12 +163,12 @@
       <div class="intro">
         <div class="intro__start">
           <h2
-            class="intro__h2"
+            class="intro__h2 dark:text-blue-700"
           >
             معرفی گلستان
           </h2>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
             آنچه که امروز با نام مجموعه گلستان می‌شناسیم در سال 1329 بنیان نهاده
             شد. زمانی که شرکت گلستان فعالیت خود را با بسته‌بندی و توزیع چای
@@ -164,7 +179,7 @@
             کالاهایی قابل اعتماد و با کیفیت تولید نماید.
           </p>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75 "
           >
             هدفمندی و برنامه‌ریزی موثر، ایمان و عزم راسخ برای دستیابی به اهداف
             تعیین شده، به کار گیری همکاران مجرب و دلسوز، استفاده از روش های نوین
@@ -174,12 +189,12 @@
         </div>
         <div class="intro__start">
           <h2
-            class="intro__h2"
+            class="intro__h2 dark:text-blue-700"
           >
             محصولات گلستان​
           </h2>
           <p
-            class="font-display text-[#7a7a7a] font[16px] font-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] font-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
             نام تجاری گلستان قدمتی به اندازه عمر شرکت گلستان دارد. گلستان
             ممتازترین محصولات خود را با این نام تجاری عرضه می‌کند. مصرف‌کنندگان
@@ -187,7 +202,7 @@
             بفرد دارند و با اطمینان از نهایت کیفیت این نام تجاری حمایت می‌کنند.
           </p>
           <div
-            class="sarmaye"
+            class="sarmaye "
           >
             <div class="w-[200px] h-[252px] flex flex-col items-center object-cover overflow-hidden">
               <img
@@ -195,17 +210,17 @@
                 alt=""
                 class="w-[185.25px] h-[185.25px] object-cover mr-[15px] overflow-hidden justify-start"
               />
-              <p class="font-display text-[#7C7D7E] text-center mt-[15px]">سرمایه انسانی</p>
+              <p class="font-display text-[#7C7D7E] text-center mt-[15px] dark:text-blue-200">سرمایه انسانی</p>
               <div class="w-[182px] h-[1px] bg-[#DBDBDB] mt-[15px]"></div>
             </div>
-            <div class="w-[200px] h-[252px] flex flex-col items-center object-cover overflow-hidden">
+            <div class="w-[200px] h-[252px] flex flex-col items-center object-cover overflow-hidden dark:ran">
               <img
                 src="./image/item2.png"
                 alt=""
                 class="w-[185.25px] h-[185.25px] object-cover mr-[15px] overflow-hidden justify-start"
               />
-              <p class="font-display text-[#7C7D7E] text-center mt-[15px]">مراکز فروش</p>
-              <div class="w-[182px] h-[1px] bg-[#DBDBDB] mt-[15px]"></div>
+              <p class="font-display text-[#7C7D7E] text-center mt-[15px] dark:text-blue-200">مراکز فروش</p>
+              <div class="w-[182px] h-[1px] bg-[#DBDBDB] mt-[15px] dark:text-white"></div>
             </div>
             <div class="w-[200px] h-[252px] flex flex-col items-center object-cover overflow-hidden">
               <img
@@ -213,8 +228,8 @@
                 alt=""
                 class="w-[185.25px] h-[185.25px] object-cover mr-[15px] overflow-hidden justify-start"
               />
-              <p class="font-display text-[#7C7D7E] text-center mt-[15px]">محصولات گلستان</p>
-              <div class="w-[182px] h-[1px] bg-[#DBDBDB] mt-[15px]"></div>
+              <p class="font-display text-[#7C7D7E] text-center mt-[15px] dark:text-blue-200">محصولات گلستان</p>
+              <div class="w-[182px] h-[1px] bg-[#DBDBDB] mt-[15px] "></div>
             </div>
             <div class="w-[200px] h-[252px] flex flex-col items-center object-cover overflow-hidden">
               <img
@@ -222,7 +237,7 @@
                 alt=""
                 class="w-[185.25px] h-[185.25px] object-cover mr-[15px] overflow-hidden justify-start"
               />
-              <p class="font-display text-[#7C7D7E] text-center mt-[15px]">مشتریان گلستان</p>
+              <p class="font-display text-[#7C7D7E] text-center mt-[15px] dark:text-blue-200">مشتریان گلستان</p>
               <div class="w-[182px] h-[1px] bg-[#DBDBDB] mt-[15px]"></div>
             </div>
           </div>
@@ -239,9 +254,9 @@
           src="./image/baner.png"
           alt=""
         />
-        <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[40px]"></div>
+        <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[40px] dark:bg-blue-800"></div>
         <div
-          class="banner__ghermez"
+          class="banner__ghermez dark:bg-blue-950"
         >
           <h2 class="text-[29px] font-display text-[#ffff] pt-[5px] pr-[20px]">
             برنج گلستان
@@ -259,12 +274,12 @@
       <div class="intro">
         <div class="intro__one">
           <h2
-            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[0]"
+            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[0] dark:text-blue-700"
           >
             رکن اول غذای ایرانی
           </h2>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
             مرغوب‌ترین برنج دنیا، برنج ایران است و بهترین نوع برنج ایرانی،‌ طارم
             و هاشمی. این برنج‌ها از بهترین شالیزارهای مازندران برداشت شده، پس از
@@ -279,12 +294,12 @@
         >
           <a
             href="#"
-            class="intro__a"
+            class="intro__a dark:bg-[black]"
             >محصولات برنج</a
           >
           <a
             href="#"
-            class="intro__aa"
+            class="intro__aa dark:bg-[black]"
             >آشپزخانه گلستان</a
           >
         </div>
@@ -299,9 +314,9 @@
           src="./image/banner2.png"
           alt=""
         />
-        <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[40px]"></div>
+        <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[40px] dark:bg-blue-800"></div>
         <div
-          class="banner__ghermezz"
+          class="banner__ghermezz dark:bg-blue-950"
         >
           <h2 class="text-[29px] font-display text-[#ffff] pt-[5px] pr-[20px]">
             چای گلستان
@@ -319,12 +334,12 @@
       <div class="intro">
         <div class="intro__one">
           <h2
-            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[0]"
+            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[0] dark:text-blue-700"
           >
             سابقه‌ای به قدمت یک عمر
           </h2>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
             چای تنها یك نوشیدنی گرم نیست.‌ یک گفتمان است؛‌ گرمابخش وجود و
             بهانه‌ای برای آغاز یك معاشرت دل‌چسب. بی‌دلیل نیست كه نام «محبوب‌ترین
@@ -332,7 +347,7 @@
             حس خوب آرامش را به همراه دارد.
           </p>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
             با چای پیوند خورده است؛‌ قدیمی‌ترین محصول مجموعه گلستان،‌ با
             مدرن‌ترین و بهداشتی‌ترین دستگاه‌های روز دنیا تهیه و بسته‌بندی
@@ -345,7 +360,7 @@
         >
           <a
             href="#"
-            class="intro__a "
+            class="intro__a dark:bg-[black]"
           >
             محصولات چای</a
           >
@@ -361,9 +376,9 @@
           src="./image/banner3.png"
           alt=""
         />
-        <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[40px]"></div>
+        <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[40px] dark:bg-blue-800"></div>
         <div
-          class="banner__ghermezzz"
+          class="banner__ghermezzz dark:bg-blue-950"
         >
           <p class="text-[29px] font-display text-[#ffff] pt-[5px] pr-[20px]">
             پسته گلستان
@@ -381,18 +396,18 @@
       <div class="intro">
         <div class="intro__one">
           <h2
-            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[0]"
+            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[0] dark:text-blue-700"
           >
             آجيل‌های خوش خنده
           </h2>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
             خواص فوق‌العاده پسته بر كسی پوشیده نیست. پسته را منبع ویتامین و مواد
             معدنی می‌نامند، یك پمپ خون‌ساز قوی و تسكین دهنده قلب و اعصاب.
           </p>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
             پسته گلستان اما حسابش از دیگر پسته‌های بازار جداست. مرغوب‌ترین پسته
             خام از بهترین باغ‌های پسته ایران دستچین می‌شود.‌ پس از كنترل كیفیت
@@ -406,7 +421,7 @@
         >
           <a
             href="#"
-            class="intro__a"
+            class="intro__a dark:bg-[black]"
           >
             ناتس گلستان</a
           >
@@ -429,7 +444,7 @@
       <div class="w-[100%] p-[20px] box-border">
         <div class="w-[70%] mr-auto ml-auto mt-[20px] mb-[10px]">
           <h2
-            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mt-[0]"
+            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mt-[0] dark:text-blue-700"
           >
             مجله گلستان
           </h2>
@@ -442,14 +457,14 @@
           <img src="./image/majale1.png" class="box-border object-cover overflow-hidden" alt=""> 
           <div class="w-[318.66px] h-[282px]  "> 
             <div class=" h-[33px]"> 
-        <h5 class="font-display text-[22px] mb-[-10px] pr-[20px] text-[#ff0000] font-normal mt-[15px]">ماکارونی با سبزیجات</h5></div> 
+        <h5 class="font-display text-[22px] mb-[-10px] pr-[20px] text-[#ff0000] font-normal mt-[15px] dark:text-blue-700">ماکارونی با سبزیجات</h5></div> 
         <div class="w-[274.66px] h-[120px] pr-[20px]"> 
-        <p class="font-display tracking-tight text-[16px] box-border opacity-[.7] leading-[30px] mx-auto text-justify mt-[15px]">  
+        <p class="font-display tracking-tight text-[16px] box-border opacity-[.7] leading-[30px] mx-auto text-justify mt-[15px] dark:text-blue-200">  
           ابتدا ماکارانی‌ها را در ظرفی‌ به‌ همراه‌ آب‌، روغن‌ مایع‌ و نمک‌ می‌ریزیم‌ تا کمی‌ بپزد. در این‌ حین‌ پیازها را خرد کرده‌ و روی‌ روغن‌ تفت‌ می‌دهیم‌ تا طلایی‌ شود…   
         </p></div> 
         <div class="pr-[20px] mt-[10px] my-0 flex flex-row gap-x-[5px] justify-start"> 
           <a 
-           class="block w-[135px] h-[41px] no-underline font-display text-[#7C7D7E] bg-[#FFFFFF] rounded-[10px] text-center leading-[40px] border-solid border-[1px] border-[#c8c8c9] text-[14px] transition-[100ms] hover:bg-[#FF0000] hover:text-[white] mt-[15px]" href="#"> 
+           class="block w-[135px] h-[41px] no-underline font-display text-[#7C7D7E] bg-[#FFFFFF] rounded-[10px] text-center leading-[40px] border-solid border-[1px] border-[#c8c8c9] text-[14px] transition-[100ms] hover:bg-[#FF0000] hover:text-[white] mt-[15px] dark:bg-[black]" href="#"> 
            ادامه مطلب</a></div> 
           </div> 
       </div> 
@@ -457,14 +472,14 @@
           <img src="./image/majale2.png" class="box-border object-cover overflow-hidden" alt=""> 
           <div class="w-[318.66px] h-[282px]  "> 
             <div class=" h-[33px]"> 
-        <h5 class="font-display text-[22px] mb-[-10px] pr-[20px] text-[#ff0000] font-normal mt-[15px]">سوپ مکزیکی</h5></div> 
+        <h5 class="font-display text-[22px] mb-[-10px] pr-[20px] text-[#ff0000] font-normal mt-[15px] dark:text-blue-700">سوپ مکزیکی</h5></div> 
         <div class="w-[274.66px] h-[120px] pr-[20px]"> 
-        <p class="font-display tracking-tight text-[16px] box-border opacity-[.7] leading-[30px] mx-auto text-justify mt-[15px]">  
+        <p class="font-display tracking-tight text-[16px] box-border opacity-[.7] leading-[30px] mx-auto text-justify mt-[15px] dark:text-blue-200">  
           گوشت بوقلمون را در یک ماهیتابه بزرگ ریخته، آب روی آن بریزید تا روی آن را بپوشاند و به مدت نیم ساعت آن را بپزید. گوشت را از مایع آن بیرون آورده…  
         </p></div> 
         <div class="pr-[20px] mt-[10px] my-0 flex flex-row gap-x-[5px] justify-start"> 
           <a 
-           class="block w-[135px] h-[41px] no-underline font-display text-[#7C7D7E] bg-[#FFFFFF] rounded-[10px] text-center leading-[40px] border-solid border-[1px] border-[#c8c8c9] text-[14px] transition-[100ms] hover:bg-[#FF0000] hover:text-[white] mt-[15px]" href="#"> 
+           class="block w-[135px] h-[41px] no-underline font-display text-[#7C7D7E] bg-[#FFFFFF] rounded-[10px] text-center leading-[40px] border-solid border-[1px] border-[#c8c8c9] text-[14px] transition-[100ms] hover:bg-[#FF0000] hover:text-[white] mt-[15px] dark:bg-[black]" href="#"> 
            ادامه مطلب</a></div> 
           </div> 
       </div> 
@@ -472,14 +487,14 @@
           <img src="./image/majale3.png" class="box-border object-cover overflow-hidden" alt=""> 
           <div class="w-[318.66px] h-[282px]  "> 
             <div class=" h-[33px]"> 
-        <h5 class="font-display text-[22px] mb-[-10px] pr-[20px] text-[#ff0000] font-normal mt-[15px]">چیلاکیله</h5></div> 
+        <h5 class="font-display text-[22px] mb-[-10px] pr-[20px] text-[#ff0000] font-normal mt-[15px] dark:text-blue-700">چیلاکیله</h5></div> 
         <div class="w-[274.66px] h-[120px] pr-[20px]"> 
-        <p class="font-display tracking-tight text-[16px] box-border opacity-[.7] leading-[30px] mx-auto text-justify mt-[15px]">  
+        <p class="font-display tracking-tight text-[16px] box-border opacity-[.7] leading-[30px] mx-auto text-justify mt-[15px] dark:text-blue-200">  
           احتمالا نام چیلا کیله را نشنیده باشید ولی اگر یکبار این غذای فوق‌العاده خوشمزه را تهیه کنید و نوش جان کنید جزئی جدانشدنی از فهرست 
         </p></div> 
         <div class="pr-[20px] mt-[10px] my-0 flex flex-row gap-x-[5px] justify-start"> 
           <a 
-           class="block w-[135px] h-[41px] no-underline font-display text-[#7C7D7E] bg-[#FFFFFF] rounded-[10px] text-center leading-[40px] border-solid border-[1px] border-[#c8c8c9] text-[14px] transition-[100ms] hover:bg-[#FF0000] hover:text-[white] mt-[15px]" href="#"> 
+           class="block w-[135px] h-[41px] no-underline font-display text-[#7C7D7E] bg-[#FFFFFF] rounded-[10px] text-center leading-[40px] border-solid border-[1px] border-[#c8c8c9] text-[14px] transition-[100ms] hover:bg-[#FF0000] hover:text-[white] mt-[15px] dark:bg-[black]" href="#"> 
            ادامه مطلب</a></div> 
           </div> 
       </div>      
@@ -490,9 +505,9 @@
       <div
         class="film"
       >
-        <div class="h-[600px] w-[67%] flex flex-col flex-wrap bg-white ">
+        <div class="h-[600px] w-[67%] flex flex-col flex-wrap bg-white dark:bg-[#2b2b2b]">
           <div
-            class="w-[315px] h-[83%] flex flex-col flex-wrap items-center shadow-lg shadow-neutral-600"
+            class="w-[315px] h-[83%] flex flex-col flex-wrap items-center shadow-lg shadow-neutral-600 dark:shadow-none"
           >
             <div id="56301617982" class="w-[100%] h-[60%]">
               <script
@@ -501,15 +516,15 @@
               ></script>
             </div>
             <div
-              class="w-[97.9%] h-[100px] bg-white flex flex-col justify-center"
+              class="w-[97.9%] h-[100px] bg-white flex flex-col justify-center dark:bg-[#2b2b2b]"
             >
               <p
-                class="text-right text-[17px] h-[30px] w-[200px] text-[#ff000f] font-display mr-[10px] font-bold"
+                class="text-right text-[17px] h-[30px] w-[200px] text-[#ff000f] font-display mr-[10px] font-bold dark:text-blue-700"
               >
                 سالاد نودل
               </p>
               <p
-                class="text-[14px] font-display h-[60px] text-[#7C7D7E] text-right leading-10 mr-[10px] mt-[15px]"
+                class="text-[14px] font-display h-[60px] text-[#7C7D7E] text-right leading-10 mr-[10px] mt-[15px] dark:text-blue-200"
               >
                 نودل هاتی کارا یك میان‌وعده‌ی مغذی، در هر موقعیتی كه باشید با
                 كمی آب جوش و یك نودل هاتی‌كارا می‌توانید از یك غذای سالم و
@@ -518,7 +533,7 @@
               <div class="mr-[20px] mt-[100px]">
                 <a
                   href="#"
-                  class="flex w-[110px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white"
+                  class="flex w-[110px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white dark:bg-[black]"
                 >
                   ویدیوهای بیشتر
                 </a>
@@ -526,9 +541,9 @@
             </div>
           </div>
         </div>
-        <div class="h-[600px] w-[67%] flex flex-col flex-wrap bg-white ">
+        <div class="h-[600px] w-[67%] flex flex-col flex-wrap bg-white dark:bg-[#2b2b2b]">
           <div
-            class="w-[315px] h-[83%] flex flex-col flex-wrap items-center shadow-lg shadow-neutral-600"
+            class="w-[315px] h-[83%] flex flex-col flex-wrap items-center shadow-lg shadow-neutral-600 dark:shadow-none"
           >
             <div id="79347398286" class="w-[100%] h-[60%]">
               <script
@@ -537,15 +552,15 @@
               ></script>
             </div>
             <div
-              class="w-[97.9%] h-[100px] bg-white flex flex-col justify-center"
+              class="w-[97.9%] h-[100px] bg-white flex flex-col justify-center dark:bg-[#2b2b2b]"
             >
               <p
-                class="text-right text-[17px] h-[30px] w-[200px] text-[#ff000f] font-display mr-[10px] font-bold"
+                class="text-right text-[17px] h-[30px] w-[200px] text-[#ff000f] font-display mr-[10px] font-bold dark:text-blue-700"
               >
                 اینستاگرام هاتی نودل
               </p>
               <p
-                class="text-[14px] font-display h-[60px] text-[#7C7D7E] text-right leading-10 mr-[10px] mt-[15px]"
+                class="text-[14px] font-display h-[60px] text-[#7C7D7E] text-right leading-10 mr-[10px] mt-[15px] dark:text-blue-200"
               >
                 نودل‌های هاتی كارا را می‌توان جایگزین سالمی برای غذاهای فست‌فودی
                 دانست. طعم عالی،‌ ارزش غذایی بالا و قیمت مناسب از این محصول غذای
@@ -554,7 +569,7 @@
               <div class="mr-[20px] mt-[100px]">
                 <a
                   href="#"
-                  class="flex w-[110px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white"
+                  class="flex w-[110px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white dark:bg-[black]"
                 >
                   ادامه مطلب
                 </a>
@@ -562,9 +577,9 @@
             </div>
           </div>
         </div>
-        <div class="h-[600px] w-[67%] flex flex-col flex-wrap bg-white">
+        <div class="h-[600px] w-[67%] flex flex-col flex-wrap bg-white dark:bg-[#2b2b2b]">
           <div
-            class="w-[315px] h-[83%] flex flex-col flex-wrap items-center shadow-lg shadow-neutral-600"
+            class="w-[315px] h-[83%] flex flex-col flex-wrap items-center shadow-lg shadow-neutral-600 dark:shadow-none"
           >
             <div id="86011836453" class="w-[100%] h-[60%]">
               <script
@@ -573,15 +588,15 @@
               ></script>
             </div>
             <div
-              class="w-[97.9%] h-[100px] bg-white flex flex-col justify-center"
+              class="w-[97.9%] h-[100px] bg-white flex flex-col justify-center dark:bg-[#2b2b2b]"
             >
               <p
-                class="text-right text-[17px] h-[30px] w-[200px] text-[#ff000f] font-display mr-[10px] font-bold"
+                class="text-right text-[17px] h-[30px] w-[200px] text-[#ff000f] font-display mr-[10px] font-bold dark:text-blue-700"
               >
                 برنج گلستان
               </p>
               <p
-                class="text-[14px] font-display h-[60px] text-[#7C7D7E] text-right leading-10 mr-[10px] mt-[15px]"
+                class="text-[14px] font-display h-[60px] text-[#7C7D7E] text-right leading-10 mr-[10px] mt-[15px] dark:text-blue-200 dark:bg-[#2b2b2b]"
               >
                 عطر و طعم بی‌نظیر برنج گلستان با هیچ برنج دیگری قابل مقایسه
                 نیست. با گلستان،‌ كیفیت زندگی بالاتر از همیشه است. چرا كه
@@ -590,7 +605,7 @@
               <div class="mr-[20px] mt-[100px]">
                 <a
                   href="#"
-                  class="flex w-[110px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white"
+                  class="flex w-[110px] h-[40px] bg-white text-[#7c7d7e] font-display items-center justify-center no-underline border-[1px] border-solid border-[#c8c8c8] rounded-[8px] text-[14px] delay-100 hover:bg-[#ff0000] hover:text-white dark:bg-[black]"
                 >
                   ویدیوهای بیشتر
                 </a>
@@ -601,7 +616,7 @@
       </div>
       <!--end film-->
       <!--masoliat-->
-      <div class="w-[100%] h-[600px] bg-[#105153]">
+      <div class="w-[100%] h-[600px] bg-[#105153] dark:bg-blue-950">
         <div class="justify-center flex-row flex-wrap flex w-[100%] h-[40%]">
           <p class="text-white font-display text-[18px] mt-[200px] ">
             مسئوليت‌های اجتماعی شركت گلستان
@@ -629,70 +644,222 @@
           </p>
         </div>
       </div>
-      <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[20px]"></div>
+      <div class="w-[100%] h-[20px] bg-[#E9D69F] mb-[20px] dark:bg-blue-800"></div>
       <div class="line text-[#4a4a4a] mt-[5px] font-[15px]"><hr /></div>
       <div
         class="masso"
       >
         <img src="./image/end.png" alt="" class="object-cover" />
       </div>
-      <div class="intro">
+      <!--intro-->
+      <div class="intro mt-[120px]">
         <div class="intro__one">
           <h2
-            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[100px]"
+            class="text-[20px] text-[#ff000f] font-display font-[700] mb-[0] w-[60%] mr-auto ml-auto mt-[0] dark:text-blue-700"
           >
-            مسئوليت‌های اجتماعی گلستان
+           مسئوليت‌های اجتماعی گلستان 
           </h2>
           <p
-            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-[white] dark:opacity-75"
+            class="font-display text-[#7a7a7a] font[16px] sont-[100] leading-[36px] w-[60%] mt-[20px] mr-auto mb-[20px] ml-auto text-justify dark:text-blue-200 dark:opacity-75"
           >
-            كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین،
-            قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر
-            از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و
-            امکاناتشان برای حل مشكلات جامعه و محیط زندگی خود استفاده كنند.
-            گلستان در فعالیت‌های‌ اجتماعی خود،‌ گسترده وسیعی از فعالیت‌های
-            عام‌المنفعه را در دستوركار خود قرار داده است.
+           كسب‌وكارها اجزای قدرتمند جامعه به شمار می‌آیند و موفق‌ترین، قابل‌احترام‌ترین و مطلوب‌ترین كسب‌وكارها آنهایی هستند كه كاری فراتر از درآمدزایی ایجاد كنند؛‌ آنهایی كه آمده‌اند تا از تجربه و امکاناتشان برای حل مشكلات جامعه و محیط زندگی خود استفاده كنند. 
           </p>
-          <div
-            class="flex font-display h-[100px] font-[700] w-[70%] mr-auto ml-[90px] mt-[10px] gap-[10px]"
+        </div>
+        <div
+          class="flex font-display h-[100px] font-[700] w-[70%] mr-auto ml-[90px] mt-[10px] gap-[10px]"
+        >
+          <a
+            href="#"
+            class="intro__a dark:bg-[black]"
           >
-            <a
-              href="#"
-              class="intro__a"
-            >
-              اطلاعات بيشتر</a
-            >
-          </div>
+            اطلاعات بیشتر</a
+          >
         </div>
       </div>
-      <!--masoliat-->
-      <!--arm-->
+      <!--end intro-->
+      <!--icons svg app-->
       <div
-        class="w-[100%] h-[95px] bg-[#EEEFEF] flex-row flex flex-wrap justify-center items-center dark:bg-[#2b2b2b]"
+      class="flex justify-center bg-gray-200 p-5 gap-1 border-b-[20px] border-red-600 dark:bg-blue-950 dark:border-blue-800"
+    >
+      <!-- svg facebook -->
+      <svg
+        fill="#fcfcfc"
+        class="h-[50px] rounded-full w-[50px] bg-[#b2b4b6] hover:bg-[#7c95c9]"
+        height="64px"
+        width="64px"
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="-133.3 -133.3 576.60 576.60"
+        xml:space="preserve"
+        stroke="#000000"
+        stroke-width="0.0031"
       >
-        <img class="w-[55px] h-[55px]" src="./image/icon1-1-1.png" alt="" />
-        <img class="w-[55px] h-[55px]" src="./image/icon2-1-1.png" alt="" />
-        <img class="w-[55px] h-[55px]" src="./image/icon3-1.png" alt="" />
-        <img class="w-[55px] h-[55px]" src="./image/icon4-1.png" alt="" />
-        <img class="w-[55px] h-[55px]" src="./image/icon5-1.png" alt="" />
-        <img class="w-[55px] h-[55px]" src="./image/icon6-1-2 (1).png" alt="" />
-      </div>
-      <!--end arm-->
-      
-      <!--end footer-->
-      <!-- svg -->
-<div class="w-[1px] h-[1px]">
-</a>
-</div>
-<div
-class="fixed flex justify-center items-center w-[60px] h-[60px] bg-[#2b2b2b] z-50 right-4 bottom-4 cursor-pointer rounded-[10%]"
-id="themeSwitch"
->
-<p class="text-white leading-[24px]">DARK</p>
-</div>
-<!-- end svg -->
-<div class="footer__red"></div> 
-<div class="footer__b "> 
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <g id="XMLID_834_">
+            <path
+              class=""
+              id="XMLID_835_"
+              d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064 c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996 V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545 C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703 c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"
+            ></path>
+          </g>
+        </g>
+      </svg>
+
+      <!-- svg facebook end-->
+      <!-- svg linkedin -->
+      <svg
+        fill="#fcfcfc"
+        class="rounded-full w-[50px] h-[50px] bg-[#b2b4b6] hover:bg-[#4ca7d5]"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="64px"
+        height="64px"
+        viewBox="-220.16 -220.16 952.32 952.32"
+        xml:space="preserve"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <g id="7935ec95c421cee6d86eb22ecd125aef">
+            <path
+              style="
+                display: inline;
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+              "
+              d="M116.504,500.219V170.654H6.975v329.564H116.504 L116.504,500.219z M61.751,125.674c38.183,0,61.968-25.328,61.968-56.953c-0.722-32.328-23.785-56.941-61.252-56.941 C24.994,11.781,0.5,36.394,0.5,68.722c0,31.625,23.772,56.953,60.53,56.953H61.751L61.751,125.674z M177.124,500.219 c0,0,1.437-298.643,0-329.564H286.67v47.794h-0.727c14.404-22.49,40.354-55.533,99.44-55.533 c72.085,0,126.116,47.103,126.116,148.333v188.971H401.971V323.912c0-44.301-15.848-74.531-55.497-74.531 c-30.254,0-48.284,20.38-56.202,40.08c-2.897,7.012-3.602,16.861-3.602,26.711v184.047H177.124L177.124,500.219z"
+            ></path>
+          </g>
+        </g>
+      </svg>
+      <!-- svg linkedin end-->
+
+      <!-- svg instaagram -->
+
+      <svg
+        fill="#fcfcfc"
+        class="rounded-full w-[50px] h-[50px] bg-[#b2b4b6] hover:bg-[#be2d2d]"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="64px"
+        height="64px"
+        viewBox="-220.16 -220.16 952.32 952.32"
+        enable-background="new 0 0 512 512"
+        xml:space="preserve"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <g id="5151e0c8492e5103c096af88a50059a5">
+            <path
+              display="inline"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M66.084,0.5h379.819c36.079,0,65.597,29.505,65.597,65.584 v379.819c0,36.079-29.518,65.597-65.597,65.597H66.084C30.005,511.5,0.5,481.982,0.5,445.903V66.084 C0.5,30.005,30.005,0.5,66.084,0.5L66.084,0.5z M372.734,57.264c-12.65,0-23.005,10.355-23.005,23.005v55.067 c0,12.65,10.354,23.005,23.005,23.005h57.762c12.65,0,23.005-10.354,23.005-23.005V80.269c0-12.65-10.354-23.005-23.005-23.005 H372.734L372.734,57.264z M453.738,216.59h-44.975c4.254,13.897,6.55,28.606,6.55,43.852c0,84.996-71.111,153.898-158.839,153.898 c-87.716,0-158.827-68.902-158.827-153.898c0-15.245,2.295-29.954,6.55-43.852H57.276v215.853c0,11.178,9.132,20.322,20.311,20.322 h355.841c11.166,0,20.311-9.145,20.311-20.322V216.59L453.738,216.59z M256.475,155.447c-56.677,0-102.625,44.525-102.625,99.443 s45.948,99.443,102.625,99.443c56.688,0,102.636-44.525,102.636-99.443S313.163,155.447,256.475,155.447z"
+            ></path>
+          </g>
+        </g>
+      </svg>
+
+      <!-- svg instaagram end -->
+
+      <!-- svg telegram  -->
+
+      <svg
+        fill="#fcfcfc"
+        class="rounded-full w-[50px] h-[50px] bg-[#b2b4b6] hover:bg-[#2da6db]"
+        width="64px"
+        height="64px"
+        viewBox="-10.32 -10.32 44.64 44.64"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            d="m20.665 3.717-17.73 6.837c-1.21.486-1.203 1.161-.222 1.462l4.552 1.42 10.532-6.645c.498-.303.953-.14.579.192l-8.533 7.701h-.002l.002.001-.314 4.692c.46 0 .663-.211.921-.46l2.211-2.15 4.599 3.397c.848.467 1.457.227 1.668-.785l3.019-14.228c.309-1.239-.473-1.8-1.282-1.434z"
+          ></path>
+        </g>
+      </svg>
+      <!-- svg telegram  end-->
+
+      <!-- svg aparat -->
+      <svg
+        fill="#fcfcfc"
+        class="rounded-full w-[50px] h-[50px] bg-[#b2b4b6] hover:bg-[#ed3d77]"
+        width="64px"
+        height="64px"
+        viewBox="-10.32 -10.32 44.64 44.64"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          <path
+            d="M12.001 1.594c-9.27-.003-13.913 11.203-7.36 17.758a10.403 10.403 0 0 0 17.76-7.355c0-5.744-4.655-10.401-10.4-10.403zM6.11 6.783c.501-2.598 3.893-3.294 5.376-1.103 1.483 2.19-.422 5.082-3.02 4.582A2.97 2.97 0 0 1 6.11 6.783zm4.322 8.988c-.504 2.597-3.897 3.288-5.377 1.096-1.48-2.192.427-5.08 3.025-4.579a2.97 2.97 0 0 1 2.352 3.483zm1.26-2.405c-1.152-.223-1.462-1.727-.491-2.387.97-.66 2.256.18 2.04 1.334a1.32 1.32 0 0 1-1.548 1.053zm6.198 3.838c-.501 2.598-3.893 3.293-5.376 1.103-1.484-2.191.421-5.082 3.02-4.583a2.97 2.97 0 0 1 2.356 3.48zm-1.967-5.502c-2.598-.501-3.293-3.896-1.102-5.38 2.19-1.483 5.081.422 4.582 3.02a2.97 2.97 0 0 1-3.48 2.36zM13.59 23.264l2.264.61a3.715 3.715 0 0 0 4.543-2.636l.64-2.402a11.383 11.383 0 0 1-7.448 4.428zm7.643-19.665L18.87 2.97a11.376 11.376 0 0 1 4.354 7.62l.65-2.459A3.715 3.715 0 0 0 21.231 3.6zM.672 13.809l-.541 2.04a3.715 3.715 0 0 0 2.636 4.543l2.107.562a11.38 11.38 0 0 1-4.203-7.145zM10.357.702 8.15.126a3.715 3.715 0 0 0-4.547 2.637l-.551 2.082A11.376 11.376 0 0 1 10.358.702z"
+          ></path>
+        </g>
+      </svg>
+      <!-- svg aparat end-->
+
+      <!-- svg gl  -->
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        width="55"
+        height="55"
+      >
+        <a href="">
+          <path
+            class="magazinesvg hover:fill-[#89c864]"
+            d="M0 0 C2.38351278 1.44713276 4.13147942 2.93592951 6.046875 4.95703125 C6.96919922 5.85035156 6.96919922 5.85035156 7.91015625 6.76171875 C12.0552076 11.65954955 12.59650407 16.38894226 12.671875 22.58203125 C12.6829126 23.2985083 12.6939502 24.01498535 12.70532227 24.75317383 C12.53782497 30.98939286 10.55499822 35.24539803 6.265625 39.8828125 C5.6984375 40.34042969 5.13125 40.79804687 4.546875 41.26953125 C3.9796875 41.74003906 3.4125 42.21054687 2.828125 42.6953125 C-4.05716914 47.57239585 -12.80505124 47.03019218 -20.953125 45.95703125 C-24.79365782 44.62975118 -27.17472783 42.88876159 -29.953125 39.95703125 C-30.56800781 39.36148438 -31.18289062 38.7659375 -31.81640625 38.15234375 C-36.83895693 32.21765168 -36.98301856 25.44764162 -36.52734375 18 C-35.9187899 12.46177722 -33.94701204 8.82532436 -29.953125 4.95703125 C-29.36917969 4.34085938 -28.78523438 3.7246875 -28.18359375 3.08984375 C-20.84402743 -3.19294083 -8.80671927 -3.11030958 0 0 Z "
+            fill="#BBBBBB"
+            transform="translate(37.953125,4.04296875)"
+          />
+        </a>
+
+        <path
+          d="M0 0 C0 0.99 0 1.98 0 3 C-1.093125 3.103125 -2.18625 3.20625 -3.3125 3.3125 C-6.81895694 3.77587677 -6.81895694 3.77587677 -9 5.0625 C-10.70165035 8.35944755 -9.64478904 11.42435171 -9 15 C-7.02 15.66 -5.04 16.32 -3 17 C-3 15.35 -3 13.7 -3 12 C-3.99 12 -4.98 12 -6 12 C-6 11.01 -6 10.02 -6 9 C-3.69 9 -1.38 9 1 9 C1.02688151 10.64574566 1.04634123 12.29161413 1.0625 13.9375 C1.07410156 14.85402344 1.08570312 15.77054688 1.09765625 16.71484375 C1 19 1 19 0 20 C-3.99514288 20.58447461 -8.20224056 21.07311191 -11.7734375 18.94140625 C-14.30077751 16.24606387 -15.35213362 13.53251454 -15.625 9.9375 C-14.88188291 5.25586231 -13.7112987 3.84820598 -10 1 C-6.52674819 -0.1577506 -3.63932552 -0.06866652 0 0 Z "
+          fill="#F5F5F5"
+          transform="translate(26,16)"
+        />
+        <path
+          d="M0 0 C1.32 0 2.64 0 4 0 C4 5.61 4 11.22 4 17 C6.31 17 8.62 17 11 17 C11 17.99 11 18.98 11 20 C7.37 20 3.74 20 0 20 C0 13.4 0 6.8 0 0 Z "
+          fill="#F7F7F7 "
+          transform="translate(29,16)"
+        />
+      </svg>
+      </div> 
+      <!-- svg gl end -->
+<!-- footer -->
+<div class="footer__b"> 
   <div class="footer__main"> 
     <div class="footer__main__one"> 
       <div class="footer__dimg"> 
@@ -769,6 +936,32 @@ id="themeSwitch"
       </div> 
 </div> 
 <!-- footer -->
+ <!-- svg -->
+ <div class="w-[60px] h-[1px] rounded-[50%]">
+  <div class="fixed w-[60px] h-[60px] z-50 left-4 bottom-4 rounded-[50%]">
+    <a href="#" id="svg" class="fixed w-[60px] h-[60px] z-50 left-4 bottom-4">
+      <svg 
+        viewBox="0 0 384 512"
+        class="w-10 size-10 bg-[#333] opacity-30 rounded hover:bg-[#333] hover:opacity-100 transition"
+      >
+        <path
+          class="fill-white"
+          d="M192 160c1.1 0 3.969 .7344 5.531 2.9l151.1 144c3.150 3.047 3.312 8.125 .25 11.31c-3.094 3.188-8.156 3.281-11.31 .25L192 179.1L45.53 317.8c-3.219 3.031-8.281 2.938-11.31-.25c-3.062-3.188-2.937-8.266 .25-11.31l151.1-144C188 160.7 190 160 192 160z"
+        ></path>
+      </svg>
+</div>
+          </a>
+        </div>
+<div class="w-[1px] h-[1px]">
+</a>
+</div>
+<div
+class="fixed flex justify-center items-center w-[60px] h-[60px] bg-[#2b2b2b] z-50 right-4 bottom-4 cursor-pointer rounded-[10%]"
+id="themeSwitch"
+>
+<p class="text-white leading-[24px]">DARK</p>
+</div>
+<!-- end svg -->
 
     </div>
     <script src="./public/js/main.js"></script>
