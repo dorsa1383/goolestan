@@ -39,13 +39,13 @@
     @apply desktop:w-[100%] desktop:h-[250px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:gap-[22px] desktop:justify-center desktop:mt-[150px] mobile:hidden dark:dark:bg-[#2b2b2b];
   }
   .banner {
-    @apply desktop:mt-[20px] desktop:w-[100%] desktop:h-[554px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center dark:bg-[#2b2b2b];
+    @apply desktop:mt-[20px] desktop:w-[100%] desktop:h-[554px] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:items-center dark:bg-[#2b2b2b] desktop:relative mobile:relative;
   }
   .banner__aks {
     @apply desktop:object-cover desktop:w-[100%] desktop:h-[500px];
   }
   .banner__ghermez {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[2214px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:top-[2170px];
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:z-[1001] desktop:absolute desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:bottom-0;
   }
   .intro__one {
     @apply desktop:w-[85%] desktop:mr-auto desktop:ml-auto desktop:mt-[0] desktop:mb-[0];
@@ -57,10 +57,10 @@
     @apply dark:bg-[pink] desktop:flex desktop:w-[120px] desktop:h-[40px] desktop:bg-white desktop:text-[#7c7d7e] desktop:font-display desktop:items-center desktop:justify-center desktop:no-underline desktop:border-[1px] desktop:border-solid desktop:border-[#c8c8c8] desktop:rounded-[8px] desktop:text-[14px] desktop:delay-100 desktop:hover:bg-[#ff0000] desktop:hover:text-white desktop:font-normal mobile:flex mobile:w-[120px] mobile:h-[40px] mobile:bg-white mobile:text-[#7c7d7e] mobile:font-display mobile:items-center mobile:justify-center mobile:no-underline mobile:border-[1px] mobile:border-solid mobile:border-[#c8c8c8] mobile:rounded-[8px] mobile:text-[14px] mobile:delay-100 mobile:hover:bg-[#ff0000] mobile:hover:text-white mobile:font-normal;
   }
   .banner__ghermezz {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[3269px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:top-[3003px];
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:z-[1001] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute desktop:absolute mobile:bottom-0;
   }
   .banner__ghermezzz {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:z-[1001] desktop:absolute desktop:top-[4414px] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:top-[3927px];
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:absolute desktop:z-[1001] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:bottom-0;
   }
   .soup {
     @apply desktop:w-[100%] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:bg-[#CDE4B0] mobile:w-[100%] mobile:flex mobile:flex-col mobile:flex-wrap mobile:justify-center mobile:bg-[#CDE4B0] mobile:mx-auto mobile:items-center dark:bg-[#2b2b2b];
@@ -81,7 +81,10 @@
     @apply desktop:w-[100%] desktop:h-[700px] desktop:bg-white desktop:flex desktop:flex-row desktop:justify-center desktop:pt-[95px] desktop:pl-[250px] desktop:pr-[250px] mobile:pr-[90px] mobile:pt-[40px] dark:bg-[#2b2b2b];
   }
   .masso {
-    @apply desktop:flex desktop:justify-center desktop:shadow-xl desktop:z-[1001] desktop:absolute desktop:top-[7380px] desktop:right-[540px] mobile:flex mobile:justify-center mobile:shadow-lg mobile:absolute mobile:top-[8460px] mobile:mr-[40px];
+    @apply desktop:flex desktop:justify-center desktop:shadow-xl mobile:flex mobile:justify-center mobile:shadow-lg mobile:mr-[40px] desktop:relative mobile:relative desktop:top-[-230px] desktop:right-[-20px] mobile:top-[-230px] mobile:right-[-20px];
+  }
+  .masso__aks {
+    @apply desktop:object-cover desktop:absolute desktop:z-[1001] mobile:absolute;
   }
   .footer__red {
     @apply desktop:w-[100%] desktop:h-[25px] desktop:bg-[#ED1C24] mobile:w-[100%] mobile:h-[25px] mobile:bg-[#ED1C24];
@@ -107,7 +110,7 @@
   .footer__span {
     @apply desktop:w-[150px] desktop:h-[140px] desktop:flex desktop:flex-col desktop:gap-[5px] desktop:flex-wrap desktop:box-border mobile:w-[543.33px] mobile:h-[139.93px] mobile:flex mobile:flex-col mobile:gap-[5px] mobile:flex-wrap mobile:box-border mobile:text-center;
   }
-    .footer__end {
+  .footer__end {
     @apply desktop:w-[100%] desktop:h-[95px] desktop:flex desktop:flex-col desktop:flex-wrap desktop:items-center desktop:justify-center mobile:w-[100%] mobile:h-[124px] mobile:flex mobile:flex-col mobile:flex-wrap mobile:items-center mobile:justify-center mobile:text-center mobile:bg-[#272727];
   }
   .menu {
@@ -191,10 +194,10 @@
   .intro___a {
     @apply desktop:flex w-[120px] desktop:h-[40px]  desktop:bg-white desktop:text-[#7c7d7e] desktop:ml-[100px] desktop:font-display desktop:items-center desktop:justify-center desktop:no-underline border-[1px] border-solid desktop:border-[#c8c8c8] desktop:rounded-[8px] desktop:text-[14px] desktop:delay-100 desktop:hover:bg-[#ff0000] desktop:hover:text-white desktop:font-normal mobile:flex mobile:w-[120px] mobile:h-[40px] mobile:bg-white mobile:text-[#7c7d7e] mobile:font-display mobile:items-center mobile:justify-center mobile:no-underline mobile:border-[1px] mobile:border-solid mobile:border-[#c8c8c8] mobile:rounded-[8px] mobile:text-[14px] mobile:delay-100 mobile:hover:bg-[#ff0000] mobile:hover:text-white mobile:font-normal mobile:mr-[40px];
   }
-  .weblug{
-    @apply desktop:text-[20px] desktop:text-[#ff000f] desktop:font-display desktop:font-[700] desktop:mb-[0] desktop:mr-[100px] desktop:w-[60%] mt-[0] dark:text-blue-700 mobile:text-[20px] mobile:text-[#ff000f] mobile:font-display mobile:font-[700]
+  .weblug {
+    @apply desktop:text-[20px] desktop:text-[#ff000f] desktop:font-display desktop:font-[700] desktop:mb-[0] desktop:mr-[100px] desktop:w-[60%] mt-[0] dark:text-blue-700 mobile:text-[20px] mobile:text-[#ff000f] mobile:font-display mobile:font-[700];
   }
-  .arm{
-    @apply desktop:w-[100%] desktop:h-[94px] desktop:bg-[#EEEFEF] desktop:justify-center desktop:items-center desktop:flex desktop:flex-row desktop:flex-wrap mobile:w-[100%] mobile:h-[94px] mobile:bg-[#EEEFEF] mobile:justify-center mobile:items-center mobile:flex mobile:flex-row
+  .arm {
+    @apply desktop:w-[100%] desktop:h-[94px] desktop:bg-[#EEEFEF] desktop:justify-center desktop:items-center desktop:flex desktop:flex-row desktop:flex-wrap mobile:w-[100%] mobile:h-[94px] mobile:bg-[#EEEFEF] mobile:justify-center mobile:items-center mobile:flex mobile:flex-row;
   }
 }

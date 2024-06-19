@@ -1403,8 +1403,15 @@ html {
   background-color: rgb(43 43 43 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 0) {
+  .banner {
+    position: relative;
+  }
+}
+
 @media (min-width: 1000px) {
   .banner {
+    position: relative;
     margin-top: 20px;
     display: flex;
     height: 554px;
@@ -1426,7 +1433,7 @@ html {
 @media (min-width: 0) {
   .banner__ghermez {
     position: absolute;
-    top: 2170px;
+    bottom: 0px;
     height: 100px;
     width: 100%;
     --tw-bg-opacity: 1;
@@ -1437,7 +1444,7 @@ html {
 @media (min-width: 1000px) {
   .banner__ghermez {
     position: absolute;
-    top: 2214px;
+    bottom: 34px;
     right: 360px;
     z-index: 1001;
     height: 100px;
@@ -1592,7 +1599,7 @@ html {
 @media (min-width: 0) {
   .banner__ghermezz {
     position: absolute;
-    top: 3003px;
+    bottom: 0px;
     height: 100px;
     width: 100%;
     --tw-bg-opacity: 1;
@@ -1603,7 +1610,7 @@ html {
 @media (min-width: 1000px) {
   .banner__ghermezz {
     position: absolute;
-    top: 3269px;
+    bottom: 34px;
     right: 360px;
     z-index: 1001;
     height: 100px;
@@ -1616,7 +1623,7 @@ html {
 @media (min-width: 0) {
   .banner__ghermezzz {
     position: absolute;
-    top: 3927px;
+    bottom: 0px;
     height: 100px;
     width: 100%;
     --tw-bg-opacity: 1;
@@ -1627,7 +1634,7 @@ html {
 @media (min-width: 1000px) {
   .banner__ghermezzz {
     position: absolute;
-    top: 4414px;
+    bottom: 34px;
     right: 360px;
     z-index: 1001;
     height: 100px;
@@ -1786,8 +1793,9 @@ html {
 
 @media (min-width: 0) {
   .masso {
-    position: absolute;
-    top: 8460px;
+    position: relative;
+    top: -230px;
+    right: -20px;
     margin-right: 40px;
     display: flex;
     justify-content: center;
@@ -1799,15 +1807,29 @@ html {
 
 @media (min-width: 1000px) {
   .masso {
-    position: absolute;
-    top: 7380px;
-    right: 540px;
-    z-index: 1001;
+    position: relative;
+    top: -230px;
+    right: -20px;
     display: flex;
     justify-content: center;
     --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+}
+
+@media (min-width: 0) {
+  .masso__aks {
+    position: absolute;
+  }
+}
+
+@media (min-width: 1000px) {
+  .masso__aks {
+    position: absolute;
+    z-index: 1001;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
