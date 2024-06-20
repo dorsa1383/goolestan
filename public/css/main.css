@@ -1433,7 +1433,7 @@ html {
 @media (min-width: 0) {
   .banner__ghermez {
     position: absolute;
-    bottom: 0px;
+    bottom: -41px;
     height: 100px;
     width: 100%;
     --tw-bg-opacity: 1;
@@ -1599,7 +1599,7 @@ html {
 @media (min-width: 0) {
   .banner__ghermezz {
     position: absolute;
-    bottom: 0px;
+    bottom: -41px;
     height: 100px;
     width: 100%;
     --tw-bg-opacity: 1;
@@ -1623,7 +1623,7 @@ html {
 @media (min-width: 0) {
   .banner__ghermezzz {
     position: absolute;
-    bottom: 0px;
+    bottom: -41px;
     height: 100px;
     width: 100%;
     --tw-bg-opacity: 1;

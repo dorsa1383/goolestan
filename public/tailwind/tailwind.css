@@ -45,7 +45,7 @@
     @apply desktop:object-cover desktop:w-[100%] desktop:h-[500px];
   }
   .banner__ghermez {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:z-[1001] desktop:absolute desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:bottom-0;
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:z-[1001] desktop:absolute desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:bottom-[-41px];
   }
   .intro__one {
     @apply desktop:w-[85%] desktop:mr-auto desktop:ml-auto desktop:mt-[0] desktop:mb-[0];
@@ -57,10 +57,10 @@
     @apply dark:bg-[pink] desktop:flex desktop:w-[120px] desktop:h-[40px] desktop:bg-white desktop:text-[#7c7d7e] desktop:font-display desktop:items-center desktop:justify-center desktop:no-underline desktop:border-[1px] desktop:border-solid desktop:border-[#c8c8c8] desktop:rounded-[8px] desktop:text-[14px] desktop:delay-100 desktop:hover:bg-[#ff0000] desktop:hover:text-white desktop:font-normal mobile:flex mobile:w-[120px] mobile:h-[40px] mobile:bg-white mobile:text-[#7c7d7e] mobile:font-display mobile:items-center mobile:justify-center mobile:no-underline mobile:border-[1px] mobile:border-solid mobile:border-[#c8c8c8] mobile:rounded-[8px] mobile:text-[14px] mobile:delay-100 mobile:hover:bg-[#ff0000] mobile:hover:text-white mobile:font-normal;
   }
   .banner__ghermezz {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:z-[1001] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute desktop:absolute mobile:bottom-0;
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:z-[1001] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute desktop:absolute mobile:bottom-[-41px];
   }
   .banner__ghermezzz {
-    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:absolute desktop:z-[1001] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:bottom-0;
+    @apply desktop:bg-[#ED1C24] desktop:w-[290px] desktop:h-[100px] desktop:bottom-[34px] desktop:absolute desktop:z-[1001] desktop:right-[360px] mobile:w-[100%] mobile:h-[100px] mobile:bg-[#ED1C24] mobile:absolute mobile:bottom-[-41px];
   }
   .soup {
     @apply desktop:w-[100%] desktop:flex desktop:flex-row desktop:flex-wrap desktop:justify-center desktop:bg-[#CDE4B0] mobile:w-[100%] mobile:flex mobile:flex-col mobile:flex-wrap mobile:justify-center mobile:bg-[#CDE4B0] mobile:mx-auto mobile:items-center dark:bg-[#2b2b2b];
